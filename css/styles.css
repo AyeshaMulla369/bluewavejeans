@@ -1,0 +1,102 @@
+body{
+  font-family: 'Mukta', sans-serif;
+  overflow-x: hidden;
+}
+.navbar{
+  top:0;
+  font-size: 30px;
+  position: fixed;
+  padding-top: 1rem;
+  background-color: #fff;
+  width: 100%;
+  z-index: 9999;
+  left: 0;
+}
+
+.brand-img{
+  width: 3rem;
+  height: 3rem;
+}
+.navbar-nav
+{
+  color: #A9A9A9;
+  font-size: 0.95rem;
+}
+.hr1{
+  margin-top: 5.5rem;
+}
+h1{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+  font-family: 'Roboto Slab', serif;
+}
+.Home-image{
+  text-align: center;
+}
+
+h2{
+  font-family: 'Roboto Slab', serif;
+  margin-left: 3rem;
+}
+.Events{
+  text-align: center;
+}
+.event1{
+  width: 30%;
+  height: 30%;
+}
+
+
+section{
+  margin-bottom :50px;
+}
+footer{
+  margin-top: 100px;
+  background-color:#04012d;
+  text-align: center;
+  color: white;
+}
+.footer-section{
+  margin-bottom: 0;
+}
+.tnone{
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#thankYou{
+  display: none;
+}
+  
+#sales{
+  padding: 3rem;
+}
